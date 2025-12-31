@@ -3,5 +3,6 @@
 declare(strict_types=1);
 
 header('Content-Type: text/plain');
-echo "Hello from PHP!\n";
-
+foreach (getenv() as $key => $value) {
+    echo $key . '=' . $value . "\n";
+}
