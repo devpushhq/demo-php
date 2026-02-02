@@ -1,11 +1,8 @@
-# PHP Hello World
+# PHP Demo for /dev/push
 
-## Run
-- Install PHP 8.1+.
-- Start server: `php -S 0.0.0.0:8000 -t public`
-- Open: `http://localhost:8000`
+Minimal PHP app to verify the PHP preset on /dev/push.
 
-## Deploy (container base)
-- Copy contents into your PHP runner image working dir.
-- Entrypoint: `php -S 0.0.0.0:8000 -t public`
+## Deploy on /dev/push
 
+1) Create a new project and select the **PHP** preset.
+2) Deploy. No additional configuration is needed.
